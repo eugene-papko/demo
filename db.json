@@ -1,14 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "meta":{
+        "pagination":{
+        }
+    },
+    "results":[
+        {
+        "id":"a07e1iw09oscc73adfe",
+        "name":"Sep 30, 2013 - Apps-R-Us Event",
+        "title":"My First Event",
+        "status":"ACTIVE",
+        "location":"The Great Room",
+        "type":"CLASSES_WORKSHOPS",
+        "address":{
+          "city":"AnyCity",
+          "state":"Massachusetts",
+          "country":"United States",
+          "latitude":42.125515,
+          "longitude":-71.49862,
+          "line1":"123 Maple Street",
+          "line2":"",
+          "line3":"",
+          "state_code":"MA",
+          "country_code":"us",
+          "postal_code":"99999"
+        },
+        "description":"Please join our monthly seminar and learn some new skills while meeting new friends, and catching up with old friends.",
+        "start_date":"2013-10-28T13:00:00.000Z",
+        "end_date":"2013-10-28T21:00:00.000Z",
+        "created_date":"2013-09-30T19:29:40.630Z",
+        "time_zone_id":"US/Eastern",
+        "active_date":"2013-09-30T19:37:44.006Z",
+        "is_checkin_available":false,
+        "event_detail_url":"/v2/eventspot/events/a07e1iw09oscc73adfe"
+        }
+    ]
 }
